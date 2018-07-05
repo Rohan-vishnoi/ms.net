@@ -1,0 +1,5 @@
+C:\Users\rohan\Documents\GitHub\ms.net\multiviewex\multiviewex\bin\multiviewex.dll
+C:\Users\rohan\Documents\GitHub\ms.net\multiviewex\multiviewex\bin\multiviewex.pdb
+C:\Users\rohan\Documents\GitHub\ms.net\multiviewex\multiviewex\obj\Debug\multiviewex.csprojResolveAssemblyReference.cache
+C:\Users\rohan\Documents\GitHub\ms.net\multiviewex\multiviewex\obj\Debug\multiviewex.dll
+C:\Users\rohan\Documents\GitHub\ms.net\multiviewex\multiviewex\obj\Debug\multiviewex.pdb
