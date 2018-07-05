@@ -45,7 +45,21 @@
                 <asp:BoundField DataField="password" HeaderText="password" SortExpression="password" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Student]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Student]" ConflictDetection="CompareAllValues" DeleteCommand="DELETE FROM [Student] WHERE [username] = @original_username AND [password] = @original_password" InsertCommand="INSERT INTO [Student] ([username], [password]) VALUES (@username, @password)" OldValuesParameterFormatString="original_{0}" UpdateCommand="UPDATE [Student] SET [password] = @password WHERE [username] = @original_username AND [password] = @original_password">
+            <DeleteParameters>
+                <asp:Parameter Name="original_username" Type="String" />
+                <asp:Parameter Name="original_password" Type="String" />
+            </DeleteParameters>
+            <InsertParameters>
+                <asp:Parameter Name="username" Type="String" />
+                <asp:Parameter Name="password" Type="String" />
+            </InsertParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="password" Type="String" />
+                <asp:Parameter Name="original_username" Type="String" />
+                <asp:Parameter Name="original_password" Type="String" />
+            </UpdateParameters>
+        </asp:SqlDataSource>
     </form>
 </body>
 </html>
