@@ -1,0 +1,5 @@
+C:\Users\rohan\Documents\GitHub\ms.net\rohan3\rohan3\bin\rohan3.dll
+C:\Users\rohan\Documents\GitHub\ms.net\rohan3\rohan3\bin\rohan3.pdb
+C:\Users\rohan\Documents\GitHub\ms.net\rohan3\rohan3\obj\Debug\rohan3.csprojResolveAssemblyReference.cache
+C:\Users\rohan\Documents\GitHub\ms.net\rohan3\rohan3\obj\Debug\rohan3.dll
+C:\Users\rohan\Documents\GitHub\ms.net\rohan3\rohan3\obj\Debug\rohan3.pdb

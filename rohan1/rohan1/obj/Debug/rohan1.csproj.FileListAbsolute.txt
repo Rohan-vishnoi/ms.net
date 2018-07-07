@@ -2,3 +2,4 @@ C:\Users\rohan\Documents\GitHub\ms.net\rohan1\rohan1\bin\rohan1.dll
 C:\Users\rohan\Documents\GitHub\ms.net\rohan1\rohan1\bin\rohan1.pdb
 C:\Users\rohan\Documents\GitHub\ms.net\rohan1\rohan1\obj\Debug\rohan1.dll
 C:\Users\rohan\Documents\GitHub\ms.net\rohan1\rohan1\obj\Debug\rohan1.pdb
+C:\Users\rohan\Documents\GitHub\ms.net\rohan1\rohan1\obj\Debug\rohan1.csprojResolveAssemblyReference.cache
